@@ -802,6 +802,7 @@ form button:hover{
 
 @media only screen and (max-width : 1200px) {
   .top-bar{display:none;}
+  .mt-80{margin-top:20px;}
 }
 
 @media only screen and (max-width : 994px) {
@@ -815,11 +816,12 @@ form button:hover{
         }
         form{padding:0;}
         form button{width: 100%;}
+        .mt-80{margin-top:0px;}
 }
 
 @media only screen and (max-width : 767px) {
   .tech-deco{display: none;}
-
+  .video-bg{margin-top:120px;}
   .navbar-default .navbar-collapse, .navbar-default .navbar-form{background: #fff !important;border:1px solid #e7e7e7 !important;border-top:none !important;}
 }
 
