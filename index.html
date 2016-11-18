@@ -13,12 +13,15 @@
   <title>Next Sense - The next level consultancy</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/imagehover.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/imagehover.min.css"> <!-- Will fix in a later commit, just leave a comment for now -->
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> <!-- Will fix in a later commit, just leave a comment for now -->
+  <link href="css/style.css" rel="stylesheet"> <!-- Will fix in a later commit, just leave a comment for now -->
+
+  <!-- HTML SHIVS START HERE -->
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
   <script src="js/ie-emulation-modes-warning.js"></script>
@@ -29,7 +32,6 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -41,10 +43,16 @@
         <h3 class="welcome-t">Welcome to NextSense</h3>
       </div>
       <div class="col-md-6">
+
         <ul class="list-inline ul-info">
-          <li class="phone"><a href="tel:7037895338"><span class="bolder">CALL US:</span> 703 789 5338</a></li>
-          <li class="email"><a href="mailto:info@nexthreat.com"><span class="bolder">EMAIL:</span> info@nextsense.co</a></li>
+          <li class="phone">
+            <a href="tel:7037895338"><span class="bolder">CALL US:</span> 703 789 5338</a>
+          </li>
+          <li class="email">
+            <a href="mailto:info@nexthreat.com"><span class="bolder">EMAIL:</span> info@nextsense.co</a>
+          </li>
         </ul>
+
       </div>
     </div>
   </div>
@@ -54,14 +62,18 @@
 <!-- Navigation -->
 <nav  class="navbar navbar-default" data-spy="affix" data-offset-top="197">
   <div class="container">
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="logo-img img-responsive" src="img/logo.svg" alt="Logo"/></a>
+      <a class="navbar-brand" href="#">
+        <img class="logo-img img-responsive" src="img/logo.svg" alt="Logo"/>
+      </a>
     </div>
+
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -73,6 +85,7 @@
         </ul>
       </div>
     </div>
+
   </div>
 </nav>
 <!-- /Navigation -->
@@ -108,17 +121,25 @@
     <div class="col-md-9 aboutp">
       <h3>The Aquila ITC difference begins and ends with its Consultants</h3>
       <p>
-        Aquila believes firmly that an innovative creative mind is the primary requirement to an excellent consultant. No degree, certification,
-        or training class can provide the initiative and desire necessary to stay on top of the Security game. We do value training and believe
-        it is a great way to get people interested in the field, however we know that the level of competence we expect can only be derived
-        from a deep inner interest in all aspects of Security. From covert exfiltration and exploitation to countering those threats, both sides
+        Aquila believes firmly that an innovative creative mind is the primary
+        requirement to an excellent consultant. No degree, certification,
+        or training class can provide the initiative and desire necessary to stay
+        on top of the Security game. We do value training and believe
+        it is a great way to get people interested in the field, however we know
+        that the level of competence we expect can only be derived
+        from a deep inner interest in all aspects of Security. From covert
+        exfiltration and exploitation to countering those threats, both sides
         require creative thought and a deep understanding of the attacker mindset.
       </p>
       <p>
-        Conflict evolves along similar parallels  regardless if it is in physical space or over the Internet. Most organizations are painfully
-        unaware of their attack surface, and further are unaware of the capabilities that they can currently apply to combat these threats.
-        This leads to the obvious conflict issue of being unaware of the attack, and unaware of how to defend against it. Security must be
-        internalized into the organization and the risks must be effectively communicated to the proper stakeholders.
+        Conflict evolves along similar parallels  regardless if it is in physical
+        space or over the Internet. Most organizations are painfully
+        unaware of their attack surface, and further are unaware of the capabilities
+        that they can currently apply to combat these threats.
+        This leads to the obvious conflict issue of being unaware of the attack,
+        and unaware of how to defend against it. Security must be
+        internalized into the organization and the risks must be effectively
+        communicated to the proper stakeholders.
       </p>
 
 
@@ -128,11 +149,13 @@
             <h4 class="icon1"><span class="colorize">25</span> Years of<br>experience</h4>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="boxes2">
             <h4 class="icon2"><span class="colorize">148</span> Satisfied<br>cusomers</h4>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="boxes2">
             <h4 class="icon3"><span class="colorize">16</span> Global<br>awards</h4>
@@ -153,10 +176,13 @@
       <div class="row">
 
         <div class="col-md-8 videop">
-          <h3>There is nothing more critical to an organizations success then the careful selection of its staff.</h3>
+          <h3>There is nothing more critical to an organizations
+            success then the careful selection of its staff.</h3>
           <p>
-            There is no security tool that can make you secure, with a dedicated passionate staff behind those tools however
-            your organization can rise to the challenge that we face, and instead of consuming intelligence, begin to produce
+            There is no security tool that can make you secure, with a dedicated
+            passionate staff behind those tools however
+            your organization can rise to the challenge that we face, and instead
+            of consuming intelligence, begin to produce
             intelligence.
           </p>
           <a class="l-cta2" href="#contactus">GET IN TOUCH <i class="fa fa-long-arrow-right fa-lg to-r"></i></a>
@@ -166,8 +192,9 @@
         <div class="col-md-4 v-vid">
           <div class="wrapper">
             <video poster="img/vid/transparent.png" class="video">
-              <source src="img/vid/vid-b.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-              <source src="img/vid/vid-b.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              <source src="img/vid/vid-b.mp4" type="video/mp4" />
+              <source src="img/vid/vid-b.webm" type="video/webm" />
+              Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
             <div class="playpause"></div>
             </div>
@@ -189,15 +216,19 @@
     <div class="col-md-12 d-border">
       <h4>The constant evolution of attacks requires a constant evolution of your security capabilities</h4>
       <p>
-        Aquila Consultants are veterans of the Information Security Conflict mindset. With the evolution of attacker tactics and tool sets, it is critical your organization
-        continue to evolve and improve. With a heavy focus on the process and people behind the tools, working with Aquila ensures that your people and the processes
+        Aquila Consultants are veterans of the Information Security Conflict mindset.
+        With the evolution of attacker tactics and tool sets, it is critical your organization
+        continue to evolve and improve. With a heavy focus on the process and people
+        behind the tools, working with Aquila ensures that your people and the processes
         they support are ready to adapt to the new threats that are currently in development.
     </p>
     </div>
+
   </div>
 
     <!-- Service-1 -->
     <div class="row mtb">
+
       <div class="col-xs-2 hidden-sm hidden-xs">
         <div class="circle-large">
             <div class="inner-circle">
@@ -205,11 +236,14 @@
             </div>
         </div>
       </div>
+
       <div class="col-md-10 col-sm-12 services-my">
         <h4>Security Operations Center Consulting</h4>
         <p>
-          Our consultants have worked to improve Security Groups all over the world within intelligence agencies, defense forces and private companies.
-          From metrics to in depth Incident response, we can show you the gaps in your environment and help you correct them.
+          Our consultants have worked to improve Security Groups all over the world
+          within intelligence agencies, defense forces and private companies.
+          From metrics to in depth Incident response, we can show you the gaps in
+          your environment and help you correct them.
         </p>
       </div>
     </div>
@@ -218,6 +252,7 @@
 
     <!-- Service-2 -->
     <div class="row mtb">
+
       <div class="col-xs-2 hidden-sm hidden-xs">
         <div class="circle-large">
             <div class="inner-circle">
@@ -225,11 +260,14 @@
             </div>
         </div>
       </div>
+
       <div class="col-md-10 col-sm-12 services-my">
         <h4>Network Forensics</h4>
         <p>
-          Is your security group discovering new issues? Are they translating those manual detection methods into your tools? Aquila can help in the
-          discovery of new threats to your environment, deal with an ongoing compromise, and ensure that the lessons learned are not lost.
+          Is your security group discovering new issues? Are they translating those
+          manual detection methods into your tools? Aquila can help in the
+          discovery of new threats to your environment, deal with an ongoing compromise,
+          and ensure that the lessons learned are not lost.
         </p>
       </div>
     </div>
@@ -238,6 +276,7 @@
 
     <!-- Service-3 -->
     <div class="row mtb">
+
       <div class="col-xs-2 hidden-sm hidden-xs">
         <div class="circle-large">
             <div class="inner-circle">
@@ -245,11 +284,14 @@
             </div>
         </div>
       </div>
+
       <div class="col-md-10 col-sm-12 services-my">
         <h4>Staff Augmentation</h4>
         <p>
-          Is your organization about to develop a security program? Where do you begin? How do you find the right people and retain them? Aquila can
-          provide staff augmentation and the leadership required to ensure your program avoids the common issues a Security Group experiences.
+          Is your organization about to develop a security program? Where do you
+          begin? How do you find the right people and retain them? Aquila can
+          provide staff augmentation and the leadership required to ensure your
+          program avoids the common issues a Security Group experiences.
         </p>
       </div>
     </div>
@@ -264,49 +306,59 @@
 </div>
 <div class="container">
   <div class="row mtb2">
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-1.png" alt="client 1" />
       </div>
     </div>
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-2.png" alt="client 2" />
       </div>
     </div>
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-3.png" alt="client 3" />
       </div>
     </div>
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-3.png" alt="client 4" />
       </div>
     </div>
+
   </div>
 
   <div class="row mtb2">
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-5.png" alt="client 5" />
       </div>
     </div>
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-6.png" alt="client 6" />
       </div>
     </div>
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-7.png" alt="client 7" />
       </div>
     </div>
+
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
         <img src="img/client-8.png" alt="client 8" />
       </div>
     </div>
+
   </div>
 
 </div>
@@ -320,7 +372,10 @@
   <div class="overlay-c">
     <div class="container">
       <div class="row">
-        <h4 class="contact-textbox">DO YOU HAVE A CURRENT NETWORK SECURITY ISSUE? ARE YOU LOOKING TO PREVENT A FUTURE SECURITY ISSUE? IS SECURITY A TOP PRIORITY FOR YOUR COMPANY? IF SO, CONTACT US BY FILLING OUT THE FORM BELOW</h4>
+        <h4 class="contact-textbox">DO YOU HAVE A CURRENT NETWORK SECURITY ISSUE?
+          ARE YOU LOOKING TO PREVENT A FUTURE SECURITY ISSUE? IS SECURITY A TOP PRIORITY
+          FOR YOUR COMPANY? IF SO, CONTACT US BY FILLING OUT THE FORM BELOW</h4>
+
         <form>
           <div class="row">
             <div class="col-md-4">
@@ -339,6 +394,7 @@
           </div>
           <button>Send</button>
         </form>
+
       </div>
     </div>
   </div>
@@ -346,7 +402,6 @@
 <!-- /Get in Touch -->
 
 <!-- Footer -->
-
 <div class="footer">
 
 
@@ -354,12 +409,14 @@
   <div class="row mb-80">
     <img class="logo-img" src="img/logo-white.svg" alt="">
     <p>
-      Find out what separates Aquila ITC and our consultants from the rest of the Security industry
+      Find out what separates Aquila ITC and our consultants from the rest of the
+      Security industry
     </p>
   </div>
 
   <div class="row mb-40">
     <div class="col-md-3">
+
       <ul class="list-inline">
         <li>
           <div class="circle-medium">
@@ -370,8 +427,10 @@
         </li>
         <li><div class="info-textbox">Chantilly, Virgina 20151</div></li>
       </ul>
+
     </div>
     <div class="col-md-3">
+
       <ul class="list-inline">
         <li>
           <div class="circle-medium">
@@ -382,8 +441,10 @@
         </li>
         <li><div class="info-textbox">703 789 5338</div></li>
       </ul>
+
     </div>
     <div class="col-md-3">
+
       <ul class="list-inline">
         <li>
           <div class="circle-medium">
@@ -394,8 +455,10 @@
         </li>
         <li><div class="info-textbox">info@nextsense.co</div></li>
       </ul>
+
     </div>
     <div class="col-md-3">
+
       <ul class="list-inline">
         <li>
           <div class="circle-medium">
@@ -406,6 +469,7 @@
         </li>
         <li><div class="info-textbox">www.nextsense.co</div></li>
       </ul>
+
     </div>
   </div>
 
@@ -413,90 +477,21 @@
 
 </div>
 
-  <div class="copy-r">
+<div class="copy-r">
   <p>© Copyright 2016 | <a target="_blank" href="http://www.digitalgarden.io">www.digitalgarden.io</a></p>
 </div>
 <!-- / Footer -->
 
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
+<script src="js/video.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
+<script src="js/scroll-fix.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
+<script src="js/nav-fix.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
 
-
-
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-
-    <script>
-      $('.video').parent().click(function () {
-          if($(this).children(".video").get(0).paused){
-              $(this).children(".video").get(0).play();
-              $(this).children(".playpause").fadeOut();
-          }else{
-             $(this).children(".video").get(0).pause();
-              $(this).children(".playpause").fadeIn();
-          }
-      });
-    </script>
-
-
-    <script>
-          $(document).ready(function () {
-              $(document).on("scroll", onScroll);
-
-              //smoothscroll
-              $('a[href^="#"]').on('click', function (e) {
-                  e.preventDefault();
-                  $(document).off("scroll");
-
-                  $('a').each(function () {
-                      $(this).removeClass('active');
-                  })
-                  $(this).addClass('active');
-
-                  var target = this.hash,
-                      menu = target;
-                  $target = $(target);
-                  $('html, body').stop().animate({
-                      'scrollTop': $target.offset().top+2
-                  }, 500, 'swing', function () {
-                      window.location.hash = target;
-                      $(document).on("scroll", onScroll);
-                  });
-              });
-          });
-
-          function onScroll(event){
-              var scrollPos = $(document).scrollTop();
-              $('#menu-center a').each(function () {
-                  var currLink = $(this);
-                  var refElement = $(currLink.attr("href"));
-                  if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                      $('#menu-center ul li a').removeClass("active");
-                      currLink.addClass("active");
-                  }
-                  else{
-                      currLink.removeClass("active");
-                  }
-              });
-          }
-    </script>
-
-    <script>
-      $(document).on('click','.navbar-collapse.in',function(e) {
-        if( $(e.target).is('a') ) {
-            $(this).collapse('hide');
-        }
-      });
-    </script>
-
-
-
-  </body>
+</body>
 </html>
