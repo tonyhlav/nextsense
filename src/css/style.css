@@ -523,7 +523,7 @@ p {
   padding-top:30px;
 }
 
-.mt-80 {
+.about-section {
   margin-top:80px;
 }
 .mt-40 {
@@ -818,7 +818,7 @@ form button:hover {
   .top-bar {
     display:none;
   }
-  .mt-80 {
+  .about-section {
     margin-top:20px;
   }
   .navbar-default {
@@ -850,7 +850,7 @@ form button:hover {
   form button {
     width: 100%;
   }
-  .mt-80 {
+  .about-section {
     margin-top:0px;
   }
 }
