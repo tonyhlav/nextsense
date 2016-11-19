@@ -102,7 +102,10 @@ p {
   margin: 0;
 }
 
-.ul-info {line-height:70px;margin:0;float:right;}
+.ul-info {
+  line-height:70px;
+  margin:0;
+  float:right;}
 
 .phone a, .email a {
   color:#1e1e1e;
@@ -114,7 +117,9 @@ p {
 
 
 
-.phone {margin-right:100px;}
+.phone {
+  margin-right:100px;
+}
 .phone:before {
   display: block;
   content: '';
@@ -307,7 +312,9 @@ p {
 /* About Us*/
 
 
-.icon1, .icon2, .icon3 {padding-left:45px;}
+.icon1, .icon2, .icon3 {
+  padding-left:45px;
+}
 
 .icon1:before {
   content: '';
@@ -341,7 +348,7 @@ p {
 
 
 .aboutp p {
-        margin-bottom:24px;
+  margin-bottom:24px;
 }
 
 .box-secondary {
@@ -373,7 +380,7 @@ p {
 
 
 .videop p {
-        margin-bottom:24px;
+  margin-bottom:24px;
 }
 
 
@@ -390,7 +397,11 @@ p {
     transition: color 0.3s ease-in-out;
 }
 
-.l-cta2:hover > .to-r {margin-left:16px;transition:all 0.3s ease-in-out;color:#4183d7;}
+.l-cta2:hover > .to-r {
+  margin-left:16px;
+  transition:all 0.3s ease-in-out;
+  color:#4183d7;
+}
 
 
 .video-bg {
@@ -454,7 +465,9 @@ p {
     justify-content: center;
 }
 
-.overlay-s p {font-weight: 600;}
+.overlay-s p {
+  font-weight: 600;
+}
 
 
 
@@ -782,7 +795,9 @@ form button:hover {
   color: #fff;
 }
 
-.copyright p a {color:#488bd2;}
+.copyright p a {
+  color:#488bd2;
+}
 
 
 
@@ -795,44 +810,87 @@ form button:hover {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media only screen and (max-width : 1900px) {
-  .header {background: url('../img/header-2.jpg') fixed no-repeat bottom center;}
+  .header {
+    background: url('../img/header-2.jpg') fixed no-repeat bottom center;
+  }
 }
 @media only screen and (max-width : 1200px) {
-  .top-bar {display:none;}
-  .mt-80 {margin-top:20px;}
-  .navbar-default {position: fixed; width: 100%;}
+  .top-bar {
+    display:none;
+  }
+  .mt-80 {
+    margin-top:20px;
+  }
+  .navbar-default {
+    position: fixed;
+     width: 100%;
+   }
 }
 
 @media only screen and (max-width : 994px) {
-  .logo {width: 200px;}
-    .a-img-res {display: none;}
-      .v-vid {display: none;}
-        h2 {line-height: 100px;}
-        input, textarea {
-          margin: 0;
-          margin-bottom: 10px;
-        }
-        form {padding:0;}
-        form button {width: 100%;}
-        .mt-80 {margin-top:0px;}
+  .logo {
+    width: 200px;
+  }
+  .a-img-res {
+    display: none;
+  }
+  .v-vid {
+    display: none;
+  }
+  h2 {
+    line-height: 100px;
+  }
+  input, textarea {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  form {
+    padding:0;
+  }
+  form button {
+    width: 100%;
+  }
+  .mt-80 {
+    margin-top:0px;
+  }
 }
 
 @media only screen and (max-width : 767px) {
-  .tech-deco {display: none;}
-  .video-bg {margin-top:120px;}
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {background: #fff !important;border:1px solid #e7e7e7 !important;border-top:none !important;}
-  .navbar-nav li a {height: 70px;line-height: 70px;}
+  .tech-deco {
+    display: none;
+  }
+  .video-bg {
+    margin-top:120px;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background: #fff !important;
+    border:1px solid #e7e7e7 !important;
+    border-top:none !important;
+  }
+  .navbar-nav li a {
+    height: 70px;
+    line-height: 70px;
+  }
 }
 
 @media only screen and (max-width : 480px) {
-  .d-border {padding:15px;}
-  h1 {font-size: 28px;line-height: 36px;}
-  .header-p {font-size:16px;}
+  .d-border {
+    padding:15px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .header-p {
+    font-size:16px;
+  }
 }
 
 @media only screen and (max-width : 390px) {
   .video-bg {
     min-height: 480px;
   }
-  .contact-bg {min-height: 760px;}
+  .contact-bg {
+    min-height: 760px;
+  }
 }
