@@ -56,7 +56,7 @@ h4{
   line-height: 24px;
 }
 
-.colorize{
+.highlight{
   color: #4183d7;
 }
 
@@ -64,7 +64,7 @@ p{
     line-height: 24px;
 }
 
-.bolder{
+.bold{
   font-weight: bold;
 }
 
