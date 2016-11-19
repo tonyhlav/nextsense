@@ -767,7 +767,7 @@ form button:hover{
 }
 
 
-.copy-r{
+.copyright{
   background: #151515;
   width: 100%;
   height:60px;
@@ -777,13 +777,13 @@ form button:hover{
   text-align: center;
 }
 
-.copy-r p{
+.copyright p{
   line-height: 60px;
   margin-bottom: 0;
   color: #fff;
 }
 
-.copy-r p a{color:#488bd2;}
+.copyright p a{color:#488bd2;}
 
 
 
@@ -805,7 +805,7 @@ form button:hover{
 }
 
 @media only screen and (max-width : 994px) {
-  .logo-img{width: 200px;}
+  .logo{width: 200px;}
     .a-img-res{display: none;}
       .v-vid{display: none;}
         h2{line-height: 100px;}
