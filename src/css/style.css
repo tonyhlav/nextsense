@@ -2,6 +2,65 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+/* Bootstrap Overrides */
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar {
+  z-index: 9999999;
+  border-radius:0 !important;
+  height:100px;
+  transition:all 0.3s ease-in-out;
+  border-top:none !important;
+  border-left:none !important;
+  border-right:none !important;
+}
+.navbar-default {
+  background-color: #fff !important;
+}
+.navbar-brand {
+  height: 100px !important;
+  padding:0 15px !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent !important;
+}
+
+.navbar-collapse {
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+}
+
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+    transition:all 0.3s ease-in-out;
+    color: #1b1b1b;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a {
+  transition:all 0.3s ease-in-out;
+  color: #1b1b1b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #f6f6f6 !important;
+    border-bottom:1px solid rgba(215, 215, 215, 0.65) !important;
+    transition:all 0.3s ease-in-out;
+}
+
+.navbar-toggle {
+    padding: 12px 14px !important;
+    margin-top: 30px !important;
+    border-radius:0 !important;
+}
 
 /*General*/
 
@@ -241,9 +300,7 @@ h4 {
      width: 100%;
      z-index: 9999 !important;
  }
- .navbar {
-     margin-bottom: 0px;
- }
+
 
  .affix ~ .container {
     position: relative;
@@ -254,60 +311,7 @@ h4 {
   margin-bottom: 130px;
 }
 
-.navbar {
-  z-index: 9999999;
-  border-radius:0 !important;
-  height:100px;
-  transition:all 0.3s ease-in-out;
-  border-top:none !important;
-  border-left:none !important;
-  border-right:none !important;
-}
-.navbar-default {
-  background-color: #fff !important;
-}
-.navbar-brand {
-  height: 100px !important;
-  padding:0 15px !important;
-}
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: transparent !important;
-}
 
-.navbar-collapse {
-    overflow-x: visible;
-    -webkit-overflow-scrolling: touch;
-    text-align: center;
-}
-
-.navbar-nav li a {
-    line-height: 100px;
-    height: 100px;
-    padding-top: 0;
-    transition:all 0.3s ease-in-out;
-    color: #1b1b1b;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.navbar-default .navbar-nav>li>a {
-  transition:all 0.3s ease-in-out;
-  color: #1b1b1b;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: #f6f6f6 !important;
-    border-bottom:1px solid rgba(215, 215, 215, 0.65) !important;
-    transition:all 0.3s ease-in-out;
-}
-
-.navbar-toggle {
-    padding: 12px 14px !important;
-    margin-top: 30px !important;
-    border-radius:0 !important;
-}
 
 .logo {
   height: 100%;
