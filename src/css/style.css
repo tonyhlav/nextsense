@@ -167,6 +167,10 @@ p {
     top: 70px;
  }
 
+.clients-container {
+  margin-bottom: 130px;
+}
+
 .navbar {
   z-index: 9999999;
   border-radius:0 !important;
@@ -528,10 +532,6 @@ p {
 }
 .stats {
   margin-top:40px;
-}
-
-.mt-130 {
-  margin-top:130px;
 }
 
 .mb-80 {
