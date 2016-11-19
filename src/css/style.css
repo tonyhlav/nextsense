@@ -6,22 +6,22 @@
 .navbar {
   margin-bottom: 0px;
   z-index: 9999999;
-  border-radius:0 !important;
+  border-radius:0;
   height:100px;
   transition:all 0.3s ease-in-out;
-  border-top:none !important;
-  border-left:none !important;
-  border-right:none !important;
+  border-top:none;
+  border-left:none;
+  border-right:none;
 }
 .navbar-default {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 .navbar-brand {
-  height: 100px !important;
-  padding:0 15px !important;
+  height: 100px;
+  padding:0 15px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: transparent !important;
+  border-color: transparent;
 }
 
 .navbar-collapse {
@@ -48,15 +48,15 @@
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-    background-color: #f6f6f6 !important;
-    border-bottom:1px solid rgba(215, 215, 215, 0.65) !important;
+    background-color: #f6f6f6;
+    border-bottom:1px solid rgba(215, 215, 215, 0.65);
     transition:all 0.3s ease-in-out;
 }
 
 .navbar-toggle {
-    padding: 12px 14px !important;
-    margin-top: 30px !important;
-    border-radius:0 !important;
+    padding: 12px 14px;
+    margin-top: 30px;
+    border-radius:0;
 }
 
 /*General*/
