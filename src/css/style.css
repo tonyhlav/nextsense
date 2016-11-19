@@ -138,17 +138,17 @@ h4 {
   line-height: 24px;
 }
 
-
+/* Modifiers */
 
 .highlight {
   color: #4183d7;
 }
 
-
-
 .bold {
   font-weight: bold;
 }
+
+/* Components */
 
 .title-intro {
   background:#f6f6f6;
