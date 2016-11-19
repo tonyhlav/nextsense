@@ -96,6 +96,12 @@ form button:hover {
     background-color: #2E659F;
 }
 
+/* Texts */
+
+p {
+  line-height: 24px;
+}
+
 h1 {
   font-weight:bold;
   font-size:36px;
@@ -132,13 +138,13 @@ h4 {
   line-height: 24px;
 }
 
+
+
 .highlight {
   color: #4183d7;
 }
 
-p {
-  line-height: 24px;
-}
+
 
 .bold {
   font-weight: bold;
