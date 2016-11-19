@@ -292,17 +292,17 @@ h4 {
 /*Navigation*/
 
 
- .affix {
-     top:0;
-     width: 100%;
-     z-index: 9999 !important;
- }
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
 
 
- .affix ~ .container {
-    position: relative;
-    top: 70px;
- }
+.affix ~ .container {
+  position: relative;
+  top: 70px;
+}
 
 .clients-container {
   margin-bottom: 130px;
