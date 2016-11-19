@@ -517,9 +517,8 @@ textarea {
   margin:30px;
 }
 
-.padding-top-80 {
-  padding-top:80px;
-  padding-bottom: 80px;
+.footer-container {
+  padding:80px 0 80px 0;
 }
 .about-section {
   margin-top:80px;
