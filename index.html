@@ -16,10 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,600,700" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/imagehover.min.css"> <!-- Will fix in a later commit, just leave a comment for now -->
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> <!-- Will fix in a later commit, just leave a comment for now -->
-  <link href="css/style.css" rel="stylesheet"> <!-- Will fix in a later commit, just leave a comment for now -->
+  <link href="css/style.min.css" rel="stylesheet">
 
   <!-- HTML SHIVS START HERE -->
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -46,10 +43,10 @@
 
         <ul class="list-inline ul-info">
           <li class="phone">
-            <a href="tel:7037895338"><span class="bolder">CALL US:</span> 703 789 5338</a>
+            <a href="tel:7037895338"><span class="bold">CALL US:</span> 703 789 5338</a>
           </li>
           <li class="email">
-            <a href="mailto:info@nexthreat.com"><span class="bolder">EMAIL:</span> info@nextsense.co</a>
+            <a href="mailto:info@nexthreat.com"><span class="bold">EMAIL:</span> info@nextsense.co</a>
           </li>
         </ul>
 
@@ -70,7 +67,7 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img class="logo-img img-responsive" src="img/logo.svg" alt="Logo"/>
+        <img class="logo img-responsive" src="img/logo.svg" alt="Logo"/>
       </a>
     </div>
 
@@ -106,12 +103,9 @@
 <!-- /Header  (Headline+Logo+CTA) -->
 
 <!-- About Us -->
-<div id="aboutus" class="title-intro">
-  <h2>About us</h2>
-</div>
-
+<h2 id="aboutus" class="title-intro">About us</h2>
 <div class="container">
-  <div class="row mt-80">
+  <div class="row about-section">
     <div class="col-md-3 a-img-res">
       <div>
         <img class="img-responsive" src="img/about-img.png" alt="About us Image">
@@ -143,22 +137,22 @@
       </p>
 
 
-      <div class="row mt-40">
+      <div class="row stats">
         <div class="col-md-4">
-          <div class="boxes2">
-            <h4 class="icon1"><span class="colorize">25</span> Years of<br>experience</h4>
+          <div class="box-secondary">
+            <h4 class="icon1"><span class="highlight">25</span> Years of<br>experience</h4>
           </div>
         </div>
 
         <div class="col-md-4">
-          <div class="boxes2">
-            <h4 class="icon2"><span class="colorize">148</span> Satisfied<br>cusomers</h4>
+          <div class="box-secondary">
+            <h4 class="icon2"><span class="highlight">148</span> Satisfied<br>cusomers</h4>
           </div>
         </div>
 
         <div class="col-md-4">
-          <div class="boxes2">
-            <h4 class="icon3"><span class="colorize">16</span> Global<br>awards</h4>
+          <div class="box-secondary">
+            <h4 class="icon3"><span class="highlight">16</span> Global<br>awards</h4>
           </div>
         </div>
       </div>
@@ -207,9 +201,7 @@
 <!-- /Video -->
 
 <!-- Services -->
-<div id="services" class="title-intro">
-  <h2>Our Services</h2>
-</div>
+<h2 id="services" class="title-intro">Our Services</h2>
 <div class="container">
   <div class="row">
 
@@ -227,7 +219,7 @@
   </div>
 
     <!-- Service-1 -->
-    <div class="row mtb">
+    <div class="row service">
 
       <div class="col-xs-2 hidden-sm hidden-xs">
         <div class="circle-large">
@@ -251,7 +243,7 @@
 
 
     <!-- Service-2 -->
-    <div class="row mtb">
+    <div class="row service">
 
       <div class="col-xs-2 hidden-sm hidden-xs">
         <div class="circle-large">
@@ -275,7 +267,7 @@
 
 
     <!-- Service-3 -->
-    <div class="row mtb">
+    <div class="row service">
 
       <div class="col-xs-2 hidden-sm hidden-xs">
         <div class="circle-large">
@@ -301,11 +293,9 @@
 <!-- /Services -->
 
 <!-- Our Clients -->
-<div id="clients" class="mt-130 title-intro">
-  <h2>Our Clients</h2>
-</div>
-<div class="container">
-  <div class="row mtb2">
+<h2 id="clients" class="mt-130 title-intro">Our Clients</h2>
+<div class="clients-container">
+  <div class="row clients-wrapper">
 
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
@@ -333,7 +323,7 @@
 
   </div>
 
-  <div class="row mtb2">
+  <div class="row clients-wrapper">
 
     <div class="col-md-3 col-sm-6">
       <div class="client-c">
@@ -365,9 +355,7 @@
 <!-- Our Clients -->
 
 <!-- Get in Touch -->
-<div id="contactus" class="mt-130 title-intro">
-  <h2>Contact Us</h2>
-</div>
+<h2 id="contactus" class="title-intro">Contact Us</h2>
 <div class="contact-bg">
   <div class="overlay-c">
     <div class="container">
@@ -387,7 +375,7 @@
             <div class="col-md-4">
               <input type="text" id="organization" placeholder="Organization">
             </div>
-            <div class="row padding-30">
+            <div class="row">
               <div class="col-md-12"></div>
               <textarea placeholder="*Additional comment or request" id="message_text" name="message_text"></textarea>
             </div>
@@ -405,16 +393,16 @@
 <div class="footer">
 
 
-  <div class="container padding-top-80">
-  <div class="row mb-80">
-    <img class="logo-img" src="img/logo-white.svg" alt="">
+  <div class="footer-container">
+  <div class="row">
+    <img class="logo" src="img/logo-white.svg" alt="">
     <p>
       Find out what separates Aquila ITC and our consultants from the rest of the
       Security industry
     </p>
   </div>
 
-  <div class="row mb-40">
+  <div class="row footer-contactinfo">
     <div class="col-md-3">
 
       <ul class="list-inline">
@@ -477,7 +465,7 @@
 
 </div>
 
-<div class="copy-r">
+<div class="copyright">
   <p>© Copyright 2016 | <a target="_blank" href="http://www.digitalgarden.io">www.digitalgarden.io</a></p>
 </div>
 <!-- / Footer -->
@@ -488,10 +476,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
-<script src="js/video.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
-<script src="js/scroll-fix.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
-<script src="js/nav-fix.js"></script> <!-- Will fix in a later commit, just leave a comment for now -->
+<script src="js/bundle.min.js"></script>
 
 </body>
 </html>
